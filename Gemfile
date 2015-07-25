@@ -15,6 +15,7 @@ group :development do
   gem 'spring'
   gem 'quiet_assets'
   gem 'letter_opener'
+  gem 'pry'
 end
 
 group :test, :development do

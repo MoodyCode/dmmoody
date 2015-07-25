@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 p {
   font-family: Palatino, "Book Antiqua", Baskerville, Georgia, Times, "Times New Roman", serif;
   font-size: 125%;
@@ -78,7 +82,7 @@ strong {
 }
 
 .duane {
-  color: inherit;
+  color: #35383a;
 }
 
 .space {
@@ -86,7 +90,7 @@ strong {
 }
 
 .moody {
-  color: #999999;
+  color: #7e91a3;
 }
 
 .who,
@@ -101,4 +105,15 @@ strong {
 .amp {
   font-family: Baskerville, Palatino, "Book Antiqua", serif;
   font-style: italic;
+}
+
+.btn-affirmative-link {
+  background-color: transparent;
+  color: #5db06d;
+  font-size: 1.15em;
+  letter-spacing: 0.05em;
+}
+
+.btn-affirmative-link:hover {
+  color: #f88f1e;
 }

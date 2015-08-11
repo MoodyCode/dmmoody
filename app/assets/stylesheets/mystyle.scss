@@ -107,13 +107,14 @@ strong {
   font-style: italic;
 }
 
-.btn-affirmative-link {
+.affirmative-link {
   background-color: transparent;
-  color: #5db06d;
+  color: #4183a4;
   font-size: 1.15em;
   letter-spacing: 0.05em;
 }
 
-.btn-affirmative-link:hover {
+.affirmative-link:hover {
   color: #f88f1e;
+  text-decoration: none;
 }

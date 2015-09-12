@@ -118,3 +118,10 @@ strong {
   color: #f88f1e;
   text-decoration: none;
 }
+
+.bullets li:before {    
+  font-family: 'FontAwesome';
+  content: '\e080';
+  margin:0 5px 0 -15px;
+  color: #7e91a3;
+}

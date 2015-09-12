@@ -125,3 +125,29 @@ strong {
   margin:0 5px 0 -15px;
   color: #7e91a3;
 }
+
+.header1 {
+  margin: 20px 0 10px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: lowercase;
+  line-height: 0.95em;
+  letter-spacing: 0.08em;
+  color: #5ac37f;
+}
+
+.header2 {
+  margin: 10px 0;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #f88f1e;
+  letter-spacing: 0.25em;
+  text-transform: lowercase;
+  margin-right: .42em;
+  padding-left: 0em;
+  padding-right: 1.25em;
+  line-height: 1em;
+  white-space: nowrap;
+}

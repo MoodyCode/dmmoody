@@ -1,4 +1,4 @@
-<h1>Time</h1>
+<h1 class="header1">Time</h1>
 
   <p>I work a sustainable pace.  I work three days for clients and consulting, and two days on "investment time".  I typically spend Monday - Wednesday on client work and Thursday - Friday on investment.</p>
 
@@ -10,7 +10,7 @@
 
   <p>Unless actually urgent, I will generally ignore off-hour messages which I  receive and handle them once I am back at work.</p>
 
-<h1>Investment</h1>
+<h1 class="header1">Investment</h1>
 
   <p>Investment time is time for investment in myself, my company, and my community.  Primarily this means doing something that interests me like learning a new programming language, contributing to open source, discussing interesting things, attending community events, or reading an educational book.  The goal is to encourage myself to improve and share my knowledge.</p>
 
@@ -26,7 +26,7 @@
     <li class="bullets">Build on an idea of my own</li>
   </ul>
 
-<h1>Web Apps</h1>
+<h1 class="header1">Web Apps</h1>
 
   <p>I primarily develop in Ruby on Rails. It’s a robust, proven framework with a large community. It’s well structured, so whether the project is brand new or 5 years old, it’s familiar to other developers and the learning curve won’t be steep. It makes security easy so I can focus on features instead of worrying about cross-site scripting or SQL injection. Out of the box we get an admin interface. The ORM is really nice. We have wonderful deployment tools built and ready to go. Most importantly, there’s a large body of knowledge sitting around you that is intimately familiar with Rails.</p>
 
@@ -36,7 +36,7 @@
 
   <p>Outside of the Ruby on Rails stack, I will develop in the Python stack if requested.</p>
 
-<h1>Programming Languages</h1>
+<h1 class="header1">Programming Languages</h1>
 
   <p>Examples of languages we typically use are:</p>
 
@@ -48,7 +48,7 @@
 
   <p>"Server-side" means code that is run on servers provided by the application hosting company.  "Client-side" means code that is run in users' web browswers.</p>
 
-<h1>Frameworks</h1>
+<h1 class="header1">Frameworks</h1>
 
   <p>Ruby on Rails, Node.js, and other libraries are frameworks that require developers know the underlying language such as Ruby or JavaScript.</p>
 
@@ -68,7 +68,7 @@
 
   <p>It can be difficult to switch from one framework to another. The more code that's written specifically for Rails, the harder it will be to switch to Django. That would approach "total rewrite" territory.</p>
 
-<h1>Databases</h1>
+<h1 class="header1">Databases</h1>
 
   <p>For data that must be saved and stored correctly, I use PostgreSQL (I usually refer to it as "Postgres").</p>
 
@@ -82,7 +82,7 @@
 
   <p>I typically use Redis to Go to host my production Redis databases.</p>
 
-<h1>Licenses</h1>
+<h1 class="header1">Licenses</h1>
 
   <p>In contrast with a proprietary license, the source code of an open source program is made available for review, modification and redistribution. The difference between open source licenses is what we can and can't do with the source code.</p>
 
@@ -117,11 +117,11 @@
     <li class="bullets">jQuery, Dual MIT and GPL</li>
   </ul>
 
-<h1>Developing</h1>
+<h1 class="header1">Developing</h1>
 
   <p>The majority of my development practices follow practices detailed in Kent Beck's classic Extreme Programming Explained: Embrace Change and in Gerald Weinberg's The Psychology of Computer Programming.</p>
 
-  <h2>Version Control</h2>
+  <h2 class="header2">Version Control</h2>
 
     <p>I always use source code control. It's like a time machine. I can work in parallel universes of my source code, experimenting without fear of losing work. Roll back if something goes wrong.</p>
 
@@ -129,7 +129,7 @@
 
     <p>I use GitHub for hosting my git repositories.</p>
 
-  <h2>Style Guide</h2>
+  <h2 class="header2">Style Guide</h2>
 
     <p>I write code in a consistent style that emphasizes cleanliness and  communication.</p>
 
@@ -142,7 +142,7 @@
       <li class="bullets">A reason is good when you can convince a others.</li>
     </ul>
 
-  <h2>Test-Driven Development</h2>
+  <h2 class="header2">Test-Driven Development</h2>
 
     <p>Test-Driven Development (TDD) is perhaps the most important Extreme Programming (XP) rule that I practice.</p>
 
@@ -177,7 +177,7 @@
       <li class="bullets">Red-Green-Refactor cycle.</li>
     </ul>
 
-  <h2>Acceptance Tests</h2>
+  <h2 class="header2">Acceptance Tests</h2>
 
     <p>Acceptance tests are code created from jobs stories. This code is run against the application. When executed for the first time, the test will fail. I then write application code until the test passes.</p>
 
@@ -189,11 +189,11 @@
 
     <p>When the acceptance test is green for the CI server and I am satisfied that the jobs story is complete on staging, the feature can be deployed to production at will. This can result in features being pushed to production very frequently, and therefore more value is being delivered to customers sooner.</p>
 
-  <h2>Refactoring</h2>
+  <h2 class="header2">Refactoring</h2>
 
     <p>The third step of the "red, green, refactor" step is refactoring, the process of improving the design of existing code without altering its external behavior. It's a critical step in the process.</p>
 
-  <h2>Production</h2>
+  <h2 class="header2">Production</h2>
 
     <p>We live in a magical modern era where many problems have already been solved for us. We focus on the client's product as much as possible and outsource operations as much as possible to external services.</p>
 
@@ -201,7 +201,7 @@
 
     <p>We often create a Google spreadsheet listing the monthly cost, description, and credentials of each of our clients' external services. It includes line items like GitHub, Heroku, SendGrid, New Relic, Airbrake, and Splunk.</p>
 
-<h1>Hosting</h1>
+<h1 class="header1">Hosting</h1>
 
   <p>I use Heroku. It's a platform built on Amazon's cloud infrastructure. It is simple to use when our app is just a toy and is built to scale up for high concurrency or high sustained load.</p>
 
@@ -215,7 +215,7 @@
 
   <p>I also serve my images, CSS, and JavaScript assets from a CDN such as Fastly.</p>
 
-<h1>Performance Monitoring</h1>
+<h1 class="header1">Performance Monitoring</h1>
 
   <p>I use NewRelic (Free-$100s/month) to monitor performance of production applications.</p>
 
@@ -240,11 +240,11 @@
 
   <p>Page caching is the heaviest handed technique I have, but if I can cache an entire page and push it into a CDN, that will be the fastest option.</p>
 
-<h1>Error Tracking</h1>
+<h1 class="header1">Error Tracking</h1>
 
   <p>I use Airbrake Bug Tracker (Free-$25/month).</p>
 
-<h1>Transactional Email</h1>
+<h1 class="header1">Transactional Email</h1>
 
   <p>I use SendGrid (Free-$400/month) to have our application deliver email to users, known as transactional email.</p>
 
@@ -259,7 +259,7 @@
 
   <p>I use SendGrid directly, not via the Heroku add-on, in order to avoid being lumped under the same IP group as others on Heroku (who might be misbehaving).</p>
 
-<h1>Payment Processing</h1>
+<h1 class="header1">Payment Processing</h1>
 
   <p>For collecting payments from users via credit or debit card, I use Stripe. It is a payment gateway and merchant account. I also use it for recurring billing.</p>
 
@@ -267,7 +267,7 @@
 
   <p>For sending money to users' bank accounts via ACH, I use Balanced.</p>
 
-<h1>Sales</h1>
+<h1 class="header1">Sales</h1>
 
   <p>I am a developer. I want to design and develop software. Before I can do that, I need clients to hire me. The following section details how my sales process works and answers commonly asked questions by potential clients.</p>
 
@@ -288,7 +288,7 @@
     <li>I begin work.</li>
   </ul>
 
-<h1>No Fixed Bids</h1>
+<h1 class="header1">No Fixed Bids</h1>
 
   <p>Some consulting relationships start with a requirements document or RFP ("Request For Proposal"). The requirements are often extremely detailed.</p>
 
@@ -298,12 +298,12 @@
 
   <p>As you might have guessed, I don't do fixed-bid, fixed-feature-set proposals.</p>
 
-<h1>Budget</h1>
+<h1 class="header1">Budget</h1>
 
   <p>I do need to know clients' budgets. This is often uncomfortable for them but their budget helps determines what scope is possible. It saves time. If they don't know their budget, I discuss different options.</p>
 
   <p>I talk about breaking product rollout into stages and try to improve the product's chances of success at each stage by:</p>
-  
+
   <ul>
     <li>Focusing on a small subset of features.</li>
     <li>Designing a valuable user experience.</li>

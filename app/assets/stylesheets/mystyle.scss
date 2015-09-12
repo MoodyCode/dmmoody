@@ -167,3 +167,11 @@ strong {
 .header-nav a {
   color: #7e91a3;
 }
+
+.splash {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

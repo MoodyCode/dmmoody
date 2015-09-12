@@ -175,3 +175,18 @@ strong {
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+.splash .header2 {
+  margin-right: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  line-height: 1em;
+}
+
+.list-inline > li:last-child {
+  padding-right: 0;
+}
+
+.spread-space > li:not(:first-child) {
+  padding-left: 20px;
+}

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root 'static_pages#playbook'
-  get 'static_pages/playbook'
+  root 'static_pages#home'
+  get 'manifesto', to: 'manifesto#index'
+
 end

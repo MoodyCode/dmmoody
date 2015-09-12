@@ -120,11 +120,17 @@ strong {
   text-decoration: none;
 }
 
-.bullets li:before {    
-  font-family: 'FontAwesome';
-  content: '\e080';
-  margin:0 5px 0 -15px;
-  color: #7e91a3;
+.bullets li {
+  display: block;
+}
+
+.bullets li:before {
+  margin:0 8px 0 -18px;
+  color: #4183a4;
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+  font-size: .6em;
+  float: left;
 }
 
 .header1 {

@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'newrelic_rpm'
 gem 'mail'
+gem 'rails_12factor'
 
 group :development do
   gem 'byebug'

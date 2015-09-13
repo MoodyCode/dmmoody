@@ -13,4 +13,10 @@ class UserNotifier < ApplicationMailer
     mail( :to => @prospect.email,
       :subject => "Thanks, your request for proposal was submitted")
   end
+
+  def send_prospect_notification_email(prospect)
+    @prospect = prospect
+    mail( :to => 'dmmoody@gmail.com',
+      :subject => "New Prospect RFP")
+  end
 end

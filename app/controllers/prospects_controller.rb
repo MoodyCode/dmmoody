@@ -14,6 +14,7 @@ class ProspectsController < ApplicationController
     @prospect = Prospect.new(prospect_params)
     if @prospect.save
       UserNotifier.send_prospect_confirm_email(@prospect).deliver
+      UserNotifier.send_prospect_notification_email(@prospect).deliver
       redirect_to :root
     else
       redirect_to new_prospects_path

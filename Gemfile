@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'newrelic_rpm'
+gem 'mail'
 
 group :development do
   gem 'byebug'
@@ -17,11 +18,13 @@ group :development do
   gem 'quiet_assets'
   gem 'letter_opener'
   gem 'pry'
+  gem 'foreman'
 end
 
 group :test, :development do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'dotenv-rails'
 end
 
 group :test do

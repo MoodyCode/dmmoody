@@ -78,6 +78,17 @@ strong {
   font-weight: normal;
 }
 
+.sidebar {
+  background-color: white;
+  margin-top: 25px;
+  // padding-left: 70px;
+}
+
+ul.sidebar ul li {
+  padding-left: 20px;
+  font-size: .75em;
+}
+
 .page-header {
   border-bottom: .15em solid #363636;
 }
@@ -164,7 +175,8 @@ strong {
   margin-bottom: 5px;
 }
 
-.header-nav a {
+.header-nav a,
+.side-nav a {
   color: #7e91a3;
 }
 

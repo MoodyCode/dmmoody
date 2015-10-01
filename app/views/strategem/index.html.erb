@@ -1,56 +1,3 @@
-<div class="col-md-3 pull-right">
-<nav class="pull-right">
-  <ul class="list-unstyled sidebar">
-    <li><a href="#welcome">welcome</a>
-      <ul class="list-unstyled">
-        <li><a href="#transparency">transparency</a></li>
-      </ul>
-    </li>
-    <li><a href="#my-work">my work week</a>
-      <ul class="list-unstyled">
-        <li><a href="#time">time</a></li>
-        <li><a href="#investment-time">investment time</a></li>
-      </ul>
-    </li>
-    <li><a href="#my-work">web apps</a>
-      <ul class="list-unstyled">
-        <li><a href="#time">programming languages</a></li>
-        <li><a href="#investment-time">frameworks</a></li>
-        <li><a href="#investment-time">databases</a></li>
-        <li><a href="#investment-time">licenses</a></li>
-      </ul>
-    </li>
-    <li><a href="#my-work">developing</a>
-      <ul class="list-unstyled">
-        <li><a href="#time">version control</a></li>
-        <li><a href="#investment-time">style guide</a></li>
-        <li><a href="#investment-time">test-driven development</a></li>
-        <li><a href="#investment-time">acceptance tests</a></li>
-        <li><a href="#investment-time">refactoring</a></li>
-        <li><a href="#investment-time">production</a></li>
-      </ul>
-    </li>
-    <li><a href="#my-work">production</a>
-      <ul class="list-unstyled">
-        <li><a href="#time">hosting</a></li>
-        <li><a href="#investment-time">performance monitoring</a></li>
-        <li><a href="#investment-time">error tracking</a></li>
-        <li><a href="#investment-time">transactional email</a></li>
-        <li><a href="#investment-time">payment processing</a></li>
-      </ul>
-    </li>
-    <li><a href="#my-work">sales</a>
-      <ul class="list-unstyled">
-        <li><a href="#time">hosting</a></li>
-        <li><a href="#investment-time">no fixed bids</a></li>
-        <li><a href="#investment-time">budget</a></li>
-        <li><a href="#investment-time">do not exceed</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-</div>
-
 <div class="col-md-9">
   <h1 class="header1" id="welcome">Welcome</h1>
 
@@ -102,7 +49,7 @@
 
     <p>Outside of the Ruby on Rails stack, I will develop in the Python stack if requested.</p>
 
-    <h2 class="header2">Programming Languages</h2>
+    <h2 class="header2" id="programming-languages">Programming Languages</h2>
 
       <p>Examples of languages I typically use are:</p>
 
@@ -114,7 +61,7 @@
 
       <p>"Server-side" means code that is run on servers provided by the application hosting company.  "Client-side" means code that is run in users' web browswers.</p>
 
-    <h2 class="header2">Frameworks</h2>
+    <h2 class="header2" id="frameworks">Frameworks</h2>
 
       <p>Ruby on Rails, Node.js, and other libraries are frameworks that require developers know the underlying language such as Ruby or JavaScript.</p>
 
@@ -134,7 +81,7 @@
 
       <p>It can be difficult to switch from one framework to another. The more code that's written specifically for Rails, the harder it will be to switch to Django. That would approach "total rewrite" territory.</p>
 
-    <h2 class="header2">Databases</h2>
+    <h2 class="header2" id="databases">Databases</h2>
 
       <p>For data that must be saved and stored correctly, I use PostgreSQL (I usually refer to it as "Postgres").</p>
 
@@ -148,7 +95,7 @@
 
       <p>I typically use Redis to Go to host my production Redis databases.</p>
 
-    <h2 class="header2">Licenses</h2>
+    <h2 class="header2" id="licenses">Licenses</h2>
 
       <p>In contrast with a proprietary license, the source code of an open source program is made available for review, modification and redistribution. The difference between open source licenses is what I can and can't do with the source code.</p>
 
@@ -183,11 +130,11 @@
         <li>jQuery, Dual MIT and GPL</li>
       </ul>
 
-  <h1 class="header1">Developing</h1>
+  <h1 class="header1" id="developing">Developing</h1>
 
     <p>The majority of my development practices follow practices detailed in Kent Beck's classic Extreme Programming Explained: Embrace Change and in Gerald Weinberg's The Psychology of Computer Programming.</p>
 
-    <h2 class="header2">Version Control</h2>
+    <h2 class="header2" id="version-control">Version Control</h2>
 
       <p>I always use source code control. It's like a time machine. I can work in parallel universes of my source code, experimenting without fear of losing work. Roll back if something goes wrong.</p>
 
@@ -195,7 +142,7 @@
 
       <p>I use GitHub for hosting my git repositories.</p>
 
-    <h2 class="header2">Style Guide</h2>
+    <h2 class="header2" id="style-guide">Style Guide</h2>
 
       <p>I write code in a consistent style that emphasizes cleanliness and  communication.</p>
 
@@ -208,7 +155,7 @@
         <li>A reason is good when you can convince a others.</li>
       </ul>
 
-    <h2 class="header2">Test-Driven Development</h2>
+    <h2 class="header2" id="tdd">Test-Driven Development</h2>
 
       <p>Test-Driven Development (TDD) is perhaps the most important Extreme Programming (XP) rule that I practice.</p>
 
@@ -243,7 +190,7 @@
         <li>Red-Green-Refactor cycle.</li>
       </ul>
 
-    <h2 class="header2">Acceptance Tests</h2>
+    <h2 class="header2" id="acceptance-tests">Acceptance Tests</h2>
 
       <p>Acceptance tests are code created from jobs stories. This code is run against the application. When executed for the first time, the test will fail. I then write application code until the test passes.</p>
 
@@ -255,11 +202,11 @@
 
       <p>When the acceptance test is green for the CI server and I am satisfied that the jobs story is complete on staging, the feature can be deployed to production at will. This can result in features being pushed to production very frequently, and therefore more value is being delivered to customers sooner.</p>
 
-    <h2 class="header2">Refactoring</h2>
+    <h2 class="header2" id="refactoring">Refactoring</h2>
 
       <p>The third step of the "red, green, refactor" step is refactoring, the process of improving the design of existing code without altering its external behavior. It's a critical step in the process.</p>
 
-    <h2 class="header2">Production</h2>
+    <h2 class="header2" id="production1">Production</h2>
 
       <p>We live in a magical modern era where many problems have already been solved for us. I focus on the client's product as much as possible and outsource operations as much as possible to external services.</p>
 
@@ -267,11 +214,11 @@
 
       <p>I often create a Google spreadsheet listing the monthly cost, description, and credentials of each of our clients' external services. It includes line items like GitHub, Heroku, SendGrid, New Relic, Airbrake, and Splunk.</p>
 
-  <h1 class="header1">Production</h1>
+  <h1 class="header1" id="production2">Production</h1>
 
     <p>Most of the things I do are solve problems. There’s no need for me to write my own analytics or crash reporting software or have a physical server. Instead I use services and stick to proven techniques.</p>
 
-    <h2 class="header2">Hosting</h2>
+    <h2 class="header2" id="hosting">Hosting</h2>
 
       <p>I use <a href="https://www.heroku.com/" target="_blank">Heroku</a>. It's a platform built on Amazon's cloud infrastructure. It is simple to use when our app is just a toy and is built to scale up for high concurrency or high sustained load.</p>
 
@@ -285,7 +232,7 @@
 
       <p>I also serve my images, CSS, and JavaScript assets from a CDN such as Fastly.</p>
 
-    <h2 class="header2">Performance Monitoring</h2>
+    <h2 class="header2" id="performance-monitoring">Performance Monitoring</h2>
 
       <p>I use <a href="http://newrelic.com/" target="_blank">NewRelic</a> (Free-$100s/month) to monitor performance of production applications.</p>
 
@@ -310,11 +257,11 @@
 
       <p>Page caching is the heaviest handed technique I have, but if I can cache an entire page and push it into a CDN, that will be the fastest option.</p>
 
-    <h2 class="header2">Error Tracking</h2>
+    <h2 class="header2" id="error-tracking">Error Tracking</h2>
 
       <p>I use <a href="https://rollbar.com/" target="_blank">Rollbar</a> Bug Tracker (Free-$249/month).</p>
 
-    <h2 class="header2">Transactional Email</h2>
+    <h2 class="header2" id="transactional-email">Transactional Email</h2>
 
       <p>I use <a href="https://www.sendgrid.com/" target="_blank">Sendgrid</a> (free - $399.95 per month) to have our application deliver email to users, known as transactional email.</p>
 
@@ -327,13 +274,13 @@
         <li>Message another user in the system</li>
       </ul>
 
-    <h2 class="header2">Payment Processing</h2>
+    <h2 class="header2" id="payment-processing">Payment Processing</h2>
 
       <p>For collecting payments from users via credit or debit card, I use <a href="https://stripe.com/" target="_blank">Stripe</a>. It is a payment gateway and merchant account. I also use it for recurring billing.</p>
 
       <p>Charges for Stripe will vary depending on usage. Successful charges are 2.9% + 30 cents. There are no setup fees, monthly fees, or card storage fees.</p>
 
-  <h1 class="header1">Sales</h1>
+  <h1 class="header1" id="sales">Sales</h1>
 
     <p>I am a developer. I want to design and develop software. Before I can do that, I need clients to hire me. The following section details how my sales process works and answers commonly asked questions by potential clients.</p>
 
@@ -354,7 +301,7 @@
       <li>I begin work.</li>
     </ul>
 
-    <h2 class="header2">No Fixed Bids</h2>
+    <h2 class="header2" id="no-fixed-bids">No Fixed Bids</h2>
 
       <p>Some consulting relationships start with a requirements document or RFP ("Request For Proposal"). The requirements are often extremely detailed.</p>
 
@@ -364,7 +311,7 @@
 
       <p>As you might have guessed, I don't do fixed-bid, fixed-feature-set proposals.</p>
 
-    <h2 class="header2">Budget</h2>
+    <h2 class="header2" id="budget">Budget</h2>
 
       <p>I do <a href="https://medium.com/@monteiro/why-i-need-to-know-your-budget-a61ec864c898" target="_blank">need to know clients' budgets</a>. This is often uncomfortable for them but their budget helps determines what scope is possible. It saves time. If they don't know their budget, I discuss different options.</p>
 
@@ -378,10 +325,62 @@
         <li>Designing interactions into the product for users to bring other users to the product.</li>
       </ul>
 
-      <h2 class="header2">Do Not Exceed</h2>
+      <h2 class="header2" id="do-not-exceed">Do Not Exceed</h2>
 
       <p>A Do Not Exceed is a term referring to a number that both parties will actively work towards to not exceed. I bill in a Time &amp; Materials manner (hourly), and give copious amounts of updates along the way for my clients. This means that when I reach key milestones in my budget, I will inform my client, revisit my projectons, and readjust my expectations.</p>
 
       <p>I like this approach because it is a mutual process to ensure that design and engineering budgets are not over-committed and yet are not over-estimated. Each week as I work through the backlog of work in front of me, I should have a clearer and clearer picture of when the launch will occur. If I project a launch past the budget amount, I work with the client to ensure appropriate alternatives to fit within the Timeline.</p>
 </div>
 
+<div class="col-md-3" id="sidebar">
+  <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+    <ul class="list-unstyled sidebar">
+      <li><a href="#welcome">welcome</a>
+        <ul class="list-unstyled">
+          <li><a href="#transparency">transparency</a></li>
+        </ul>
+      </li>
+      <li><a href="#my-work">my work week</a>
+        <ul class="list-unstyled">
+          <li><a href="#time">time</a></li>
+          <li><a href="#investment-time">investment time</a></li>
+        </ul>
+      </li>
+      <li><a href="#web-apps">web apps</a>
+        <ul class="list-unstyled">
+          <li><a href="#programming-languages">programming languages</a></li>
+          <li><a href="#frameworks">frameworks</a></li>
+          <li><a href="#databases">databases</a></li>
+          <li><a href="#licenses">licenses</a></li>
+        </ul>
+      </li>
+      <li><a href="#developing">developing</a>
+        <ul class="list-unstyled">
+          <li><a href="#version-control">version control</a></li>
+          <li><a href="#style-guide">style guide</a></li>
+          <li><a href="#tdd">test-driven development</a></li>
+          <li><a href="#acceptance-tests">acceptance tests</a></li>
+          <li><a href="#refactoring">refactoring</a></li>
+          <li><a href="#production1">production</a></li>
+        </ul>
+      </li>
+      <li><a href="#production2">production</a>
+        <ul class="list-unstyled">
+          <li><a href="#hosting">hosting</a></li>
+          <li><a href="#performance-monitoring">performance monitoring</a></li>
+          <li><a href="#error-tracking">error tracking</a></li>
+          <li><a href="#transactional-email">transactional email</a></li>
+          <li><a href="#payment-processing">payment processing</a></li>
+        </ul>
+      </li>
+      <li><a href="#sales">sales</a>
+        <ul class="list-unstyled">
+          <li><a href="#hosting">hosting</a></li>
+          <li><a href="#no-fixed-bids">no fixed bids</a></li>
+          <li><a href="#budget">budget</a></li>
+          <li><a href="#do-not-exceed">do not exceed</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -90,6 +90,10 @@ ul.sidebar ul li {
   font-size: .75em;
 }
 
+.affix {
+  top: 0px;
+}
+
 .page-header {
   border-bottom: .15em solid #363636;
 }
@@ -179,6 +183,22 @@ ul.sidebar ul li {
 .header-nav a,
 .side-nav a {
   color: #7e91a3;
+}
+
+#side-nav .nav>li>a {
+  padding: 0;
+}
+
+#side-nav .nav .nav>li>a {
+  padding: 0;
+}
+
+#side-nav .nav>.active>a {
+  color: #5ac37f;
+}
+
+#side-nav .nav .nav>.active>a {
+  color: #f88f1e;
 }
 
 .splash {

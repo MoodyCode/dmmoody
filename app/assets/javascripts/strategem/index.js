@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var ready = function() {
     $("body").scrollspy({
         target: "#side-nav",
         offset: 40
@@ -10,4 +10,7 @@ $(document).ready(function(){
         }
     });
 
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);

@@ -9,7 +9,6 @@ var ready = function() {
             top: 187
         }
     });
-
 };
 
 $(document).ready(ready);

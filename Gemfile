@@ -14,6 +14,7 @@ gem 'newrelic_rpm'
 gem 'mail'
 gem 'rails_12factor'
 gem 'rollbar', '~> 2.2.1'
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 group :development do
   gem 'byebug'

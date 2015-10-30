@@ -341,55 +341,55 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(../fonts/sourcesanspro/SourceSansPro-Light.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(../fonts/sourcesanspro/SourceSansPro-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url(../fonts/sourcesanspro/SourceSansPro-Semibold.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(../fonts/sourcesanspro/SourceSansPro-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), url(../fonts/sourcesanspro/SourceSansPro-It.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 600;
-  src: local("Source Sans Pro Semibold Italic"), local("SourceSansPro-SemiboldIt"), url(../fonts/sourcesanspro/SourceSansPro-SemiboldIt.woff) format("woff");
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 700;
-  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldIt"), url(../fonts/sourcesanspro/SourceSansPro-BoldIt.woff) format("woff");
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icons/icomoon.eot");
-  src: url("../fonts/icons/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icons/icomoon.woff") format("woff"), url("../fonts/icons/icomoon.ttf") format("truetype"), url("../fonts/icons/icomoon.svg#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: normal;
+//   font-weight: 300;
+//   src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(../fonts/sourcesanspro/SourceSansPro-Light.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(../fonts/sourcesanspro/SourceSansPro-Regular.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: normal;
+//   font-weight: 600;
+//   src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url(../fonts/sourcesanspro/SourceSansPro-Semibold.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(../fonts/sourcesanspro/SourceSansPro-Bold.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: italic;
+//   font-weight: 400;
+//   src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), url(../fonts/sourcesanspro/SourceSansPro-It.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: italic;
+//   font-weight: 600;
+//   src: local("Source Sans Pro Semibold Italic"), local("SourceSansPro-SemiboldIt"), url(../fonts/sourcesanspro/SourceSansPro-SemiboldIt.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'Source Sans Pro';
+//   font-style: italic;
+//   font-weight: 700;
+//   src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldIt"), url(../fonts/sourcesanspro/SourceSansPro-BoldIt.woff) format("woff");
+// }
+// @font-face {
+//   font-family: 'icomoon';
+//   src: url("../fonts/icons/icomoon.eot");
+//   src: url("../fonts/icons/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icons/icomoon.woff") format("woff"), url("../fonts/icons/icomoon.ttf") format("truetype"), url("../fonts/icons/icomoon.svg#icomoon") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
 @-moz-keyframes fade-out {
   /* line 2, scss/base/_animation.scss */
   from {

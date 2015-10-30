@@ -1,12 +1,12 @@
 var ready = function() {
     $("body").scrollspy({
         target: "#side-nav",
-        offset: 40
+        offset: 120
     })
 
     $("#sidebar").affix({
         offset: { 
-            top: 187
+            top: $('header').height()
         }
     });
 };

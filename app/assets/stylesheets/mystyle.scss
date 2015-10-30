@@ -18,17 +18,21 @@ body {
 header {
   display: block;
   font-size: 95%;
-  transition: all 0.4s ease;
+  position: fixed;
+  width: inherit;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 1;
 }
 
-header.sticky {
-  font-size: 40%;
+// header.sticky {
+//   font-size: 40%;
   // line-height: 48px;
-  height: 20px;
+  // height: 20px;
   // text-align: left;
   // padding-left: 20px;
-  position: absolute;
-}
+  // position: absolute;
+// }
 
 hgroup {
   display: inline-block;
@@ -114,11 +118,18 @@ ul.sidebar ul li {
 }
 
 .website-content {
+  margin-top: 100px;
   height: 100vh;
 }
 
 .affix {
-  top: 0px;
+  position: fixed;
+  top: 100px;
+}
+
+.affix-top {
+  position: fixed;
+  top: 100px;
 }
 
 .page-header {
@@ -211,11 +222,6 @@ ul.sidebar ul li {
 .side-nav a {
   color: #7e91a3;
 }
-
-// #side-nav {
-//   padding-left: 2em;
-//   min-width: 187px;
-// }
 
 #side-nav .nav>li>a {
   padding: 0;

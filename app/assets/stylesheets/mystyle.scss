@@ -122,7 +122,7 @@ ul.sidebar ul li {
 }
 
 .page-header {
-  border-bottom: .15em solid #363636;
+  border-bottom: none;
 }
 
 .duane {
@@ -203,9 +203,9 @@ ul.sidebar ul li {
   white-space: nowrap;
 }
 
-.page-header {
-  margin-bottom: 5px;
-}
+// .page-header {
+//   margin-bottom: 5px;
+// }
 
 .header-nav a,
 .side-nav a {
@@ -253,18 +253,18 @@ ul.sidebar ul li {
 }
 
 .splash {
-  height: 100%;
-  widows: 100%;
-  vertical-align: middle;
+  // height: 100%;
+  // widows: 100%;
+  // vertical-align: middle;
   // top: 50%;
   // left: 50%;
   // transform: translate(-50%, -50%);
 }
 
 .splash .header2 {
-  margin-right: inherit;
-  padding-left: inherit;
-  padding-right: inherit;
+  // margin-right: inherit;
+  // padding-left: inherit;
+  // padding-right: inherit;
   line-height: 1em;
 }
 

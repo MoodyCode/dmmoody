@@ -259,12 +259,10 @@ ul.sidebar ul li {
 }
 
 .splash {
-  // height: 100%;
-  // widows: 100%;
-  // vertical-align: middle;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -50%);
+  background-image: url('https://as2.ftcdn.net/jpg/00/77/12/33/500_F_77123397_IeHgL6UKkPlGDLMPGIwoDCAhOA1f5duE.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .splash .header2 {
@@ -280,4 +278,26 @@ ul.sidebar ul li {
 
 .spread-space > li:not(:first-child) {
   padding-left: 20px;
+}
+
+#wrapper {
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 6.25em 0 2em;
+}
+
+#wrapper .banner img {
+  display: block;
+  margin: auto;
+  min-width: 80%;
+}
+
+
+code {
+  background-color: #5e5e5f;
+  color: #ebebed;
+  font-size: .8em;
+  font-family: monospace;
 }

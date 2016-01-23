@@ -13,7 +13,7 @@ gem 'bootstrap-sass'
 gem 'newrelic_rpm'
 gem 'mail'
 gem 'rails_12factor'
-gem 'rollbar', '~> 2.4.0'
+gem 'rollbar', '~> 2.7.1'
 
 group :development do
   gem 'byebug'

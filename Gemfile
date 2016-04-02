@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.3.0'
 
 gem 'rails', '4.2.3'
 gem 'pg'
@@ -13,7 +13,8 @@ gem 'bootstrap-sass'
 gem 'newrelic_rpm'
 gem 'mail'
 gem 'rails_12factor'
-gem 'rollbar', '~> 2.4.0'
+gem 'rollbar', '~> 2.7.1'
+gem 'pivotal-tracker'
 
 group :development do
   gem 'byebug'

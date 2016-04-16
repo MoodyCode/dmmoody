@@ -26,10 +26,15 @@ group :development do
   gem 'letter_opener'
   gem 'pry'
   gem 'foreman'
+  gem 'meta_request'
 end
 
 group :test, :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', :git => 'git://github.com/rspec/rspec-rails.git'
+  gem 'rspec-support', :git => 'git://github.com/rspec/rspec-support.git'
+  gem 'rspec-core', :git => 'git://github.com/rspec/rspec-core.git'
+  gem 'rspec-expectations', :git => 'git://github.com/rspec/rspec-expectations.git'
+  gem 'rspec-mocks', :git => 'git://github.com/rspec/rspec-mocks.git'
   gem 'factory_girl_rails'
   gem 'dotenv-rails'
 end

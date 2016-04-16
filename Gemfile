@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
-gem 'rails', '4.2.3'
+gem 'rails', '>= 5.0.0.beta3', '< 5.1'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,8 +13,10 @@ gem 'bootstrap-sass'
 gem 'newrelic_rpm'
 gem 'mail'
 gem 'rails_12factor'
-gem 'rollbar', '~> 2.7.1'
+gem 'rollbar', :git => 'git@github.com:rollbar/rollbar-gem.git'
 gem 'pivotal-tracker'
+gem 'stripe'
+gem 'sendgrid-ruby'
 
 group :development do
   gem 'byebug'

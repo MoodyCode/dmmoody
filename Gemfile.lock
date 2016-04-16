@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:rollbar/rollbar-gem.git
+  remote: git://github.com/rollbar/rollbar-gem.git
   revision: 1e79d07b04a75b598ed36ddb85273649063d0d6d
   specs:
     rollbar (2.9.1)
@@ -113,6 +113,7 @@ GEM
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
     mime-types (2.99.1)
+    mime-types-data (3.2016.0221)
     mimemagic (0.3.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
